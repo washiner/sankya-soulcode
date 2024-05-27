@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Produto Landing Page</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .hero {
+            background: url('assets/capa.jpg') no-repeat center center;
+            background-size: cover;
+            color: white;
+            padding: 150px 0;
+        }
+        .feature-icon {
+            font-size: 2rem;
+            color: #007bff;
+        }
+        footer {
+            background: #f8f9fa;
+            padding: 20px 0;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">Produto</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">Sobre</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#features">Recursos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#pricing">Preços</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contato</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero text-center">
+        <div class="container">
+            <h1 class="display-4">Bem-vindo ao Nosso Produto</h1>
+            <p class="lead">A melhor solução para suas necessidades</p>
+            <a href="#features" class="btn btn-primary btn-lg">Saiba Mais</a>
+        </div>
+    </header>
+
+    <!-- Features Section -->
+    <section id="features" class="py-5">
+        <div class="container">
+            <h2 class="text-center">Recursos</h2>
+            <div class="row text-center mt-4">
+                <div class="col-lg-4">
+                    <div class="feature-icon mb-2">
+                        <i class="bi bi-speedometer2"></i>
+                    </div>
+                    <h3>Velocidade</h3>
+                    <p>Nosso produto é rápido e eficiente.</p>
+                    <img src="assets/3.jpeg" alt="Imagem de Velocidade">
+                </div>
+                <div class="col-lg-4">
+                    <div class="feature-icon mb-2">
+                        <i class="bi bi-shield-check"></i>
+                    </div>
+                    <h3>Segurança</h3>
+                    <p>Segurança garantida para todos os seus dados.</p>
+                    <img src="assets/2.jpeg" alt="Imagem de Velocidade">
+                </div>
+                <div class="col-lg-4">
+                    <div class="feature-icon mb-2">
+                        <i class="bi bi-gear"></i>
+                    </div>
+                    <h3>Customização</h3>
+                    <p>Totalmente customizável para suas necessidades.</p>
+                    <img src="assets/1.jpeg" alt="Imagem de Velocidade">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center">Depoimentos</h2>
+            <div id="testimonialCarousel" class="carousel slide mt-4" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active text-center">
+                        <p class="lead">"Este produto mudou a minha vida! Altamente recomendado."</p>
+                        <footer class="blockquote-footer">Cliente Satisfeito 1</footer>
+                    </div>
+                    <div class="carousel-item text-center">
+                        <p class="lead">"Excelente qualidade e suporte ao cliente incrível."</p>
+                        <footer class="blockquote-footer">Cliente Satisfeito 2</footer>
+                    </div>
+                    <div class="carousel-item text-center">
+                        <p class="lead">"Não posso imaginar viver sem ele agora. Incrível!"</p>
+                        <footer class="blockquote-footer">Cliente Satisfeito 3</footer>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section id="pricing" class="py-5">
+        <div class="container">
+            <h2 class="text-center">Planos de Preços</h2>
+            <div class="row text-center mt-4">
+                <div class="col-lg-4">
+                    <div class="card mb-4">
+                        <div class="card-header">Básico</div>
+                        <div class="card-body">
+                            <h5 class="card-title">$10 / mês</h5>
+                            <p class="card-text">Recursos básicos para uso pessoal.</p>
+                            <a href="#" class="btn btn-primary">Escolher</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="card mb-4">
+                        <div class="card-header">Padrão</div>
+                        <div class="card-body">
+                            <h5 class="card-title">$20 / mês</h5>
+                            <p class="card-text">Ideal para pequenas empresas.</p>
+                            <a href="#" class="btn btn-primary">Escolher</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="card mb-4">
+                        <div class="card-header">Premium</div>
+                        <div class="card-body">
+                            <h5 class="card-title">$30 / mês</h5>
+                            <p class="card-text">Para grandes empresas e organizações.</p>
+                            <a href="#" class="btn btn-primary">Escolher</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center">Contato</h2>
+            <div class="row">
+                <div class="col-lg-6 offset-lg-3">
+                    <form>
+                        <div class="mb-3">
+                            <label for="name" class="form-label">Nome</label>
+                            <input type="text" class="form-control" id="name" placeholder="Seu Nome">
+                        </div>
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Email</label>
+                            <input type="email" class="form-control" id="email" placeholder="Seu Email">
+                        </div>
+                        <div class="mb-3">
+                            <label for="subject" class="form-label">Assunto</label>
+                            <input type="text" class="form-control" id="subject" placeholder="Assunto">
+                        </div>
+                        <div class="mb-3">
+                            <label for="message" class="form-label">Mensagem</label>
+                            <textarea class="form-control" id="message" rows="3" placeholder="Sua Mensagem"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Enviar</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="text-center py-4">
+        <div class="container">
+            <p>&copy; 2024 Washiner - Bootcamp SoulCode. Todos os direitos reservados.</p>
+            <ul class="list-inline">
+                <li class="list-inline-item">
+                    <a href="#">Privacidade</a>
+                </li>
+                <li class="list-inline-item">
+                    <a href="#">Termos</a>
+                </li>
+                <li class="list-inline-item">
+                    <a href="#">Suporte</a>
+                </li>
+            </ul>
+            <div class="mt-2">
+                <a href="#" class="text-dark me-2"><i class="bi bi-facebook"></i></a>
+                <a href="#" class="text-dark me-2"><i class="bi bi-twitter"></i></a>
+                <a href="#" class="text-dark"><i class="bi bi-instagram"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
