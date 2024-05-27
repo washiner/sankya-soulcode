@@ -23,7 +23,7 @@ Durante o bootcamp, desenvolvemos diversos projetos práticos para consolidar no
 
 A SoulCode Academy é uma escola de programação que oferece cursos de tecnologia em parceria com empresas renomadas, como a Sankhya. Os bootcamps da SoulCode proporcionam uma experiência prática e imersiva para aprender habilidades essenciais para o mercado de trabalho na área de tecnologia.
 
-Para mais informações sobre a SoulCode, visite [soulcodeacademy.org](https://soulcodeacademy.org).
+Para mais informações sobre a SoulCode, visite [http://starter.soulcode.com/](http://starter.soulcode.com/).
 
 ## Sobre a Sankhya
 
@@ -33,5 +33,6 @@ Para mais informações sobre a Sankhya, visite [sankhya.com.br](https://www.san
 
 ## Sobre o Bootcamp
 
-O Bootcamp da Sankhya com a SoulCode foi uma experiência enriquecedora que proporcionou aos participantes a oportunidade de aprender e praticar habilidades essenciais para a carreira em tecnologia. O aprendizado prático e os projetos realizados foram fundamentais para consolidar o conhecimento adquirido durante o bootcamp.
+O Bootcamp da Sankhya com a SoulCode é uma experiência enriquecedora que proporciona aos participantes a oportunidade de aprender e praticar habilidades essenciais para a carreira em tecnologia. O aprendizado prático e os projetos esta sendo fundamental para consolidar o conhecimento adquirido durante o bootcamp.
+Um agradecimento especial ao professor #Adriano Gomes por estar transmitindo todo esse conhecimento com muita atenção e dedicação.
 
